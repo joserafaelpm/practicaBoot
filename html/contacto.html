@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <title>Formulario de contacto</title>
+</head>
+
+<body>
+        <section class="image-formulario">
+            <img src="../img/forms.png"/> <h1>FORMULARIO DE CONTACTO</h1>
+        </section>
+    
+    <div class="formulario">
+        <form  id="envioForm" name="formulario" method="POST" action="https://gemetech.co/mail/mail.php">
+            <div class="usuario">
+                <label class="label-user" for="usuario">Ingrese su nombre:</label>
+                <div class="form-group">
+                <input class="text-user" type="text" placeholder="Digite su nombre" maxlength="50" name="nombre">
+                </div>
+            </div>
+            <div class="asunto">
+                <label for="asunto">Asunto del correo</label>
+                <div class="form-group">
+                    <input class="text-asunto" type="text" placeholder="Digite el asunto del correo" maxlength="50" name="asunto">
+                </div>
+                <br>
+            </div>
+            <div class="destinatario">
+                <label for="destinatario">Destinatario:</label>
+                <div class="form-group">
+                <input class="text-destino" type="email" placeholder="Digite su email" maxlength="50" name="destinatario">
+            </div>
+            </div>
+            <div class="mensaje">
+                <label for="mensaje">Mensaje</label>
+                <div class="form-group">
+                <textarea class="text-mensaje" name="mensaje" placeholder="Digite su mensaje" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <button class="submit">Enviar Mensaje</button>
+        </div>
+             </form>
+    <footer>
+        &copy; 2021 Volver <a href="../index.html">pagina inicial</a>
+      </footer>
+</body>
+</html>

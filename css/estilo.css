@@ -1,4 +1,8 @@
-  
+
+* {
+    font-family: 'Lato', sans-serif;
+ }
+
 .footer{
     text-align: center;
     padding: 20px;
@@ -8,7 +12,7 @@
 }
 
 .navbar-header img {
-    height: 30px;
+    height: 35px;
 }
 
 .navbar-toggle {
@@ -16,6 +20,139 @@
 }
 
 picture img {
-    width: 95%;
+    width: 10%;
     height: 80%;
 }
+
+.general{
+    padding-top: 2%;
+    text-align: justify;
+}
+
+.mundial{
+    width: 100%;
+    display: inline-flex;
+}
+.mundial>.mundial-picture img{
+    width: 85%;
+}
+
+.anfitrion{
+    width: 100%;
+    display: inline-flex;
+}
+.anfitrion>.anfitrion-picture img{
+    width: 90%;
+}
+
+
+
+
+
+
+
+/*DESDE ABAJO EMPIEZA EL CCS DEL FORMULARIO*/
+
+.image-formulario>img {
+    width: 70px;
+    height: 70px;
+ }
+ 
+ .image-formulario{
+    margin: 0 auto;
+    width: 100%;;
+    display: inline-flex;
+    text-align: center;
+ }
+ 
+ #envioForm{
+    margin: 0 auto;
+ }
+ 
+ input{
+    border-radius: 5px;
+     margin: 10px 0;
+     background: #fff;
+     border: 1px solid #ccc;
+     color: #777;
+     max-width: 100%;
+     outline: none;
+     padding: 7px 8px;
+ }
+ 
+ 
+ 
+ .image-formulario>h1{
+    font-weight: bold;
+    font-size: 1.5em;
+ }
+ 
+ textarea{
+    border-radius: 5px;
+    margin: 10px 0;
+ }
+ 
+ 
+ .formulario {
+    width: 100%;
+    background-color: rgb(0, 255, 255);
+    margin: 0 auto;
+ }
+ 
+ .usuario {
+    display: block;
+ }
+ 
+ .asunto {
+    display: block;
+ }
+ 
+ 
+ .destinatario {
+    display: block;
+ }
+ 
+ .mensaje {
+    display: block;
+ }
+ 
+ 
+ label{
+    text-align: left;
+    width: 500%;
+ }
+ 
+ .text-user {
+    width: 50%;
+ }
+ 
+ .text-asunto {
+ width: 50%;
+ }
+ 
+ .text-destino {
+    width: 50%;
+ }
+ 
+ .text-mensaje {
+    width: 50%;
+ }
+ 
+ #envioForm{
+    padding-top: 15px  !important;
+    background-color: redf;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 50px;
+ }
+ 
+ .form-group{
+    padding-top: 5px;
+ }
+ 
+ @media (min-width: 250px) and (max-width:800px) {
+    .image-formulario{
+       padding-left:0px;
+    }
+ }
